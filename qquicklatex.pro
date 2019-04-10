@@ -13,8 +13,73 @@ DEFINES += QT_DEPRECATED_WARNINGS
 #DEFINES += QT_DISABLE_DEPRECATED_BEFORE=0x060000    # disables all the APIs deprecated before Qt 6.0.0
 
 SOURCES += \
-        main.cpp
-
+        main.cpp \
+        atom/atom_basic.cpp \
+        atom/atom_impl.cpp \
+atom/box.cpp \
+atom/colors_def.cpp \
+core/core.cpp \
+core/formula.cpp \
+core/formula_def.cpp \
+core/localized_num.cpp \
+core/macro.cpp \
+core/macro_def.cpp \
+core/macro_impl.cpp \
+core/parser.cpp \
+fonts/alphabet.cpp \
+fonts/font_info.cpp \
+fonts/fonts.cpp \
+res/builtin/formula_mappings.res.cpp \
+res/builtin/glue.res.cpp \
+res/builtin/symbol_mapping.res.cpp \
+res/builtin/tex_param.res.cpp \
+res/font/bi10.def.cpp \
+res/font/bx10.def.cpp \
+res/font/cmbsy10.def.cpp \
+res/font/cmbx10.def.cpp \
+res/font/cmbxti10.def.cpp \
+res/font/cmex10.def.cpp \
+res/font/cmmi10.def.cpp \
+res/font/cmmi10_unchanged.def.cpp \
+res/font/cmmib10.def.cpp \
+res/font/cmmib10_unchanged.def.cpp \
+res/font/cmr10.def.cpp \
+res/font/cmss10.def.cpp \
+res/font/cmssbx10.def.cpp \
+res/font/cmssi10.def.cpp \
+res/font/cmsy10.def.cpp \
+res/font/cmti10.def.cpp \
+res/font/cmti10_unchanged.def.cpp \
+res/font/cmtt10.def.cpp \
+res/font/dsrom10.def.cpp \
+res/font/eufb10.def.cpp \
+res/font/eufm10.def.cpp \
+res/font/i10.def.cpp \
+res/font/moustache.def.cpp \
+res/font/msam10.def.cpp \
+res/font/msbm10.def.cpp \
+res/font/r10.def.cpp \
+res/font/r10_unchanged.def.cpp \
+res/font/rsfs10.def.cpp \
+res/font/sb10.def.cpp \
+res/font/sbi10.def.cpp \
+res/font/si10.def.cpp \
+res/font/special.def.cpp \
+res/font/ss10.def.cpp \
+res/font/stmary10.def.cpp \
+res/font/tt10.def.cpp \
+res/parser/font_parser.cpp \
+res/parser/formula_parser.cpp \
+res/reg/builtin_font_reg.cpp \
+res/reg/builtin_syms_reg.cpp \
+res/sym/amsfonts.def.cpp \
+res/sym/amssymb.def.cpp \
+res/sym/base.def.cpp \
+res/sym/special.def.cpp \
+res/sym/stmaryrd.def.cpp \
+xml/tinyxml2.cpp \
+latex.cpp \
+render.cpp
 RESOURCES += qml.qrc
 
 # Additional import path used to resolve QML modules in Qt Creator's code model
